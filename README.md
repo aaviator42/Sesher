@@ -94,7 +94,7 @@ However, it is recommended that you keep fingerprinting using the UA for some ba
 
 
 ## Misc. Considerations
-You should be using TLS, because this library won't provide you much protection otherwise, except maybe some against session hijacking through the fingerprinting technique.
+You really should be using TLS, because this library won't provide you much protection otherwise, except maybe some against session hijacking through the fingerprinting technique.
 
 
 -----

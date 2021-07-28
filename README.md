@@ -1,7 +1,7 @@
 # Sesher
 Simple library for secure PHP session handling
 
-Current version: `2.2`
+Current version: `2.3`  
 License: `AGPLv3`
 
 ## About
@@ -13,6 +13,8 @@ Sesher simplifies secure PHP session management. It allows you to:
 * Prevent session hijacking using rudimentary server-side fingerprinting (using the user-agent and/or IP address)
 
 ## Functions
+A simple usage example can be found [here](https://github.com/aaviator42/simple-login).
+
 ### `\Sesher\start()`  
 
 Starts session management.  

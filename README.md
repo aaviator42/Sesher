@@ -81,6 +81,18 @@ This is the most secure configuration, but may be inconvenient for users, becaus
 
 However, it is recommended that you keep fingerprinting using the UA for some basic protection.
 
+
+## Requirements
+1. [Supported versions of PHP](https://www.php.net/supported-versions.php). At the time of writing, that's PHP `7.3+`. Sesher will almost certainly work on older versions, but we don't test it on those, so be careful, do your own testing.
+
+
+## Installation
+1. Save `Sesher.php` on your server. You can rename it.
+2. Include the file: `require Sesher.php;`.
+
+
+
+
 ## Misc. Considerations
 You should be using TLS, because this library won't provide you much protection otherwise, except maybe some against session hijacking through the fingerprinting technique.
 

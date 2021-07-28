@@ -2,7 +2,7 @@
 /*
 Sesher - PHP session handling
 by @aaviator42
-v2.2
+v2.3
 
 2021-07-28
 --
@@ -68,7 +68,7 @@ function stop(){
 }
 
 function start(){
-	if(empty($_SESSION)){
+	if(!session_id()){
 		return false;
 	}
 	if(!$_SESSION["s_active"]){
@@ -96,8 +96,7 @@ function generateFingerprint(){
 }
 
 function check(){
-	if(!empty($_SESSION) && $_SESSION["s_active"]){
-		
+	if($_SESSION["s_active"]){
 		if(useFingerprint && (generateFingerprint() !== $_SESSION["s_fingerprint"])){
 			//fingerprint doesn't match
 			$_SESSION["s_active"] = false;

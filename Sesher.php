@@ -120,4 +120,3 @@ function check(){
 		return false;
 	}
 }
-?>

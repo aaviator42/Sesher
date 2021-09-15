@@ -90,7 +90,7 @@ However, it is recommended that you keep fingerprinting using the UA for some ba
 
 ## Installation
 1. Save `Sesher.php` on your server. You can rename it.
-2. Include the file: `require Sesher.php;`.
+2. Include the file: `require "Sesher.php";`.
 
 
 
@@ -100,4 +100,4 @@ You really should be using TLS, because this library won't provide you much prot
 
 
 -----
-Documentation updated `2020-07-28`
+Documentation updated `2020-09-14`

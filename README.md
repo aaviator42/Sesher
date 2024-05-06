@@ -1,7 +1,7 @@
 # Sesher
 Simple library for secure PHP session handling
 
-Current version: `2.3`  
+Current version: `2.3`  : `2021-07-28`
 License: `AGPLv3`
 
 ## About
@@ -100,4 +100,4 @@ You really should be using TLS, because this library won't provide you much prot
 
 
 -----
-Documentation updated `2020-09-14`
+Documentation updated `2021-09-14`

@@ -1,7 +1,7 @@
 # Sesher
 Simple library for secure PHP session handling
 
-Current version: `2.3`  : `2021-07-28`
+Current version: `2.3` : `2021-07-28`  
 License: `AGPLv3`
 
 ## About
